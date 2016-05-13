@@ -5,14 +5,5 @@
 // Generated on: 2016.04.19 at 02:17:03 PM EDT 
 //
 
-@XmlJavaTypeAdapters({ @XmlJavaTypeAdapter(type = LocalDateTime.class, value = LocalDateTimeXmlAdapter.class) })
-
-@javax.xml.bind.annotation.XmlSchema(namespace = "com.abeosoft.microservices.newsapp.consul.cxf", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "com.abeosoft.microservices.webmvc.newsapp", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package com.abeosoft.microservices.news.domain;
-
-import java.time.LocalDateTime;
-
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapter;
-import javax.xml.bind.annotation.adapters.XmlJavaTypeAdapters;
-
-import com.abeosoft.microservices.news.util.LocalDateTimeXmlAdapter;

@@ -19,9 +19,6 @@ public class MongoNewsStoryLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
 	storyRepository.deleteAll();
 
-	// LocalDateTime publishDate = LocalDateTime.now().minusDays(5);
-	// LocalDateTime publishDate = LocalDateTime.now();
-
 	String author = "Elizabeth Preza";
 	String title = "ELECTION 2016 With Trump the Presumptive Nominee, the GOP Exodus Has Begun—Some Are Planning to Vote for Clinton";
 	String article = "On Tuesday night, Donald Trump defeated Texas Senator Ted Cruz in the Indiana primary, cementing the billionaire's status as the presumptive GOP nominee. As Cruz announced his decision to suspend his campaign, Republican National Committee chairman Reince Priebus called on his party to unite around Trump \"and focus on defeating Hillary Clinton.\"";

@@ -91,9 +91,4 @@ public class Story {
     public void setArticle(String article) {
 	this.article = article;
     }
-
-    // // @JsonFormat(shape = Shape.STRING, pattern = "MM-dd-YYYY")
-    // public Date getPublishDateLegacy() {
-    // return Date.from(publishDate.atZone(ZoneId.systemDefault()).toInstant());
-    // }
 }
