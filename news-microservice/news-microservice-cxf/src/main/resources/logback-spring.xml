@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<include resource="org/springframework/boot/logging/logback/base.xml" />
+	<logger name="com.abeosoft.microservices" level="TRACE" />
+	<logger name="org.springframework.data" level="DEBUG" />
+	<logger name="org.springframework.web" level="DEBUG" />
+	<logger name="org.glassfish.jersey" level="DEBUG" />
+	<logger name="org" level="ERROR" />
+	<logger name="com.fasterxml" level="TRACE" />
+</configuration>
